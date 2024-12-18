@@ -15,11 +15,9 @@ function App() {
   return (
     <Router>
       <NavBar />
+      
       <Routes>
-        {/* Pass expenses as a prop to ViewExpensePage */}
         <Route path="/view-expense" element={<ViewExpensePage expenses={expenses} />} />
-        
-        {/* Pass addExpense function as a prop to AddExpensePage */}
         <Route path="/add-expense" element={<AddExpensePage addExpense={addExpense} />} />
       </Routes>
       <Footer />
