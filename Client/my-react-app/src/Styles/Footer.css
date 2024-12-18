@@ -1,0 +1,15 @@
+/* Footer styles */
+footer {
+  background-color: #388e3c; /* Dark green background */
+  color: white;
+  padding: 15px 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+footer p:hover {
+  color: #a5d6a7; /* Light green text color on hover */
+}

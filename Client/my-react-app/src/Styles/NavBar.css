@@ -1,0 +1,82 @@
+/* General Navbar Styles */
+nav {
+  background-color: #66bb6a; /* Medium green background */
+  padding: 15px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Left section (Home) */
+.nav-left {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-left li {
+  margin-right: 20px;
+}
+
+/* Right section (Expenses and Contact) */
+.nav-right {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-right li {
+  margin-left: 20px;
+}
+
+/* Styling for the links */
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Active link style */
+a.active {
+  background-color: #a5d6a7; /* Light green background for active link */
+  color: #388e3c; /* Dark green text */
+}
+
+/* Hover effect */
+a:hover {
+  background-color: #81c784; /* Light green background on hover */
+  color: #388e3c; /* Dark green text on hover */
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .nav-left, .nav-right {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .nav-left li, .nav-right li {
+    margin: 10px 0;
+  }
+
+  a {
+    font-size: 16px;
+  }
+}

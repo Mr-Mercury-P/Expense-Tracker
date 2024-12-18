@@ -1,0 +1,47 @@
+/* ExpenseList.css */
+.expense-list {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+}
+
+table {
+  width: 80%;  /* Adjusted for smaller size */
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;  /* Centered the table */
+  transition: transform 0.3s ease-in-out;  /* Added transition for interactivity */
+}
+
+table th, table td {
+  padding: 8px 16px;  /* Smaller padding for a compact table */
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #4CAF50;  /* Greenish color for header */
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+table td {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  table {
+    width: 100%;  /* Makes the table responsive on small screens */
+  }
+}

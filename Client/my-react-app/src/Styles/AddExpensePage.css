@@ -1,0 +1,83 @@
+/* AddExpensePage.css */
+
+.add-expense-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #e8f5e9; /* Light green background */
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 50px auto 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-expense-page h2 {
+    text-align: center;
+    color: #388e3c; /* Dark green text */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.add-expense-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.add-expense-page label {
+    font-size: 16px;
+    color: #388e3c; /* Dark green for labels */
+}
+
+.add-expense-page input[type="date"],
+.add-expense-page input[type="text"],
+.add-expense-page input[type="number"] {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #81c784; /* Lighter green border */
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f1f8e9; /* Light green background for inputs */
+}
+
+.add-expense-page input[type="date"]:focus,
+.add-expense-page input[type="text"]:focus,
+.add-expense-page input[type="number"]:focus {
+    outline: none;
+    border-color: #66bb6a; /* Medium green border on focus */
+}
+
+.add-expense-page button {
+    padding: 12px 18px;
+    background-color: #66bb6a; /* Medium green button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    align-self: center;
+}
+
+.add-expense-page button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
+
+.add-expense-page h3 {
+    margin-top: 40px;
+    text-align: center;
+    color: #388e3c;
+    font-size: 20px;
+}
+
+.add-expense-page ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.add-expense-page li {
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #a5d6a7; /* Light green background for list items */
+    border-radius: 4px;
+    font-size: 14px;
+}
